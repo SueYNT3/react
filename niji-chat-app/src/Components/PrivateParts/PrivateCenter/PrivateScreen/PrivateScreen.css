@@ -1,0 +1,15 @@
+.privateScreen-Area{
+    display:flex;
+    background-image:url('../../../../Image/ChatIcon.png');
+    background-position-y:60px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:320000px;
+    width:100vw;
+    border-bottom:10px solid rgb(59, 232, 255);
+}
+.privateScreen-Area h1{
+    margin-right:360px;
+    color:#2efa49;
+}

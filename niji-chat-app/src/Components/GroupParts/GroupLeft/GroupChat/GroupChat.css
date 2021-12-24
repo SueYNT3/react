@@ -1,0 +1,64 @@
+.groupList-Avatar{
+  width:60px;
+  height:60px;
+  border-radius:30px;
+  margin-top:5px;
+  margin-left:5px;
+}
+.groupList-Lines{
+  flex:1;
+  height:60px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding-right:10px;
+  border-bottom:1px solid#201e1e;
+  margin-left:15px;
+  margin-bottom:-14px;
+  color:#EEE;
+  flex-wrap:wrap;
+  min-width:0;
+}
+.groupList-Line{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+}
+.groupList-Name{
+  font-size:17px;
+  color:#b3ff00;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.groupList-Details{
+  margin-left:30px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.groupList-Header{
+  margin-top:1px;
+  border-bottom:1px solid#2efae9;
+  padding:5px 15px;
+  width:411px;
+}
+.groupList-HeaderItem{
+  color:#7eff29;
+  justify-content:center;
+  height:43px;
+  display:flex;
+  align-items:center;
+}
+.groupList-HeaderIcon{
+  position:absolute;
+  left:350px;
+  margin-top:-35px;
+  color:#FFFFFF;
+  cursor:pointer;
+}
+.groupList-Item{
+  display:flex;
+  flex-direction:column;
+}

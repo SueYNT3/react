@@ -1,0 +1,59 @@
+.privateChat-Users{
+    border-bottom:1px solid #2efa94;
+    padding:5px 15px;
+    width:411px;
+}
+.privateChat-Item{
+    color:#7eff29;
+    justify-content:center;
+    height:44px;
+    display:flex;
+    align-items:center;
+}
+.active{
+    background-color:#979b9b;
+}
+.inactive{
+    padding:7px;
+    cursor:pointer;
+}
+.flex_between{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.privateChat-Avatar{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    margin-left:5px;
+}
+.privateChat-Lines{
+    flex:1;
+    height:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-right:10px;
+    border-bottom: 1px solid #201e1e;
+    margin-left:15px;
+    margin-bottom:-14px;
+    color:#EEE;
+    flex-wrap:wrap;
+    min-width:0;
+}
+.privateChat-Line{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+.privateChat-Name{
+    font-size:17px;
+    color:rgb(49, 194, 252);
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    margin-top:-px;
+}
