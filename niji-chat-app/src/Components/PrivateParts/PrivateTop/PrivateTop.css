@@ -1,0 +1,35 @@
+.privateTop-Profile{
+    position:absolute;
+    left:200px;
+    top:8px;
+}
+.privateTop-Avatar{
+    position:absolute;
+    top:-5px;
+    left:-20px;
+    width:55px;
+    height:55px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.privateTop-Avatar:hover{
+    opacity:0.6;
+}
+.privateTop-Change{
+    position:absolute;
+    left:1350px;
+    top:17px;
+    cursor:pointer;
+}
+.privateTop-Change:hover{
+    opacity:0.6;
+}
+.privateTop-Logout{
+    position:absolute;
+    left:1660px;
+    top:17px;
+    cursor:pointer;
+}
+.privateTop-Logout:hover{
+    opacity:0.6;
+}

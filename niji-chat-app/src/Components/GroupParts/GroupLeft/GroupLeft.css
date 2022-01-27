@@ -1,0 +1,12 @@
+.groupLeft-Item{ 
+    overflow-x:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.groupLeft-Item::-webkit-scrollbar{
+    width:8px;
+    height:6px;
+}
+.groupLeft-Item::-webkit-scrollbar-thumb{
+    background-color:#000000;
+}
